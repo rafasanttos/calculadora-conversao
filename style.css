@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: "Inter",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.all-content{
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #eeeaea;
+    background-image: url(surface-MASYTvZvMl0-unsplash\ \(6\).jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-position: bottom;
+}
+.select-option{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px ;
+    margin-bottom: 20px;
+    
+}
+.selectores{
+    border-radius: 5px;
+    padding: 2px;
+    outline: none;
+}
+
+.selectores{
+    background-color:green;
+    color: white;
+}
+.cabecalho{
+    height: 70px;
+    background-color: #10a73d;
+    color: #eeeeee;
+    font-family: "Inter",sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    background-color: #28a042;
+    outline: none;
+    border:  none;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 6px;
+    width: 180px;
+    height: 80px;
+    color: rgb(236, 223, 223);
+    font-size: 35px;
+    border: solid 1px greenyellow;
+}
+#showValue{
+    width: 200px;
+    height: 90px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a042;
+    padding: 6px;
+    color: rgb(236, 223, 223);
+    font-size: 35px;
+    margin-top: 6px;
+    border: solid 1px greenyellow;
+}
+input::placeholder{
+    font-size: 15px;
+    position: absolute;
+    color: rgb(194, 191, 191);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.campos{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#value-dolar{
+    color: rgb(224, 228, 224);
+    font-size: 30px;
+    font-style: italic;
+    width: 100px;
+    border-radius: 6px;
+    margin: 0 auto;
+    background-color: rgb(2, 87, 27);
+}
+#primeiroP{
+    font-size: 30px;
+    color: green;
+    
+}
+.campos p {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(220, 228, 222);
+}
+.campos-container{
+    margin-top: 60px;
+}
+.campos:not(:first-child){
+    margin-top: 55px;
+}
+.information{
+    margin-top: 60px;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    position: fixed ;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #49e649;
+    font-size: 10px;
+    
+}
+@media screen and (max-width:524px) {
+    .all-content{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cabecalho{
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    .footer p{
+        font-size: 7px;
+    }
+    .campos:not(:first-child){
+        margin-top: 35px;
+    }
+}

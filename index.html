@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de investimentos - by Rafael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="all-content">
+        <header class="cabecalho">
+            <h1>CALCULADORA DE CONVERSÃO</h1>
+        </header>
+        <div class="campos-container">
+            <div class="select-option">
+                <select class="selectores">
+                    <div><option value="Dolar" id="op-value">Dolar</option></div>
+                    <div><option value="Euro" id="op-value">Euro</option></div>
+                    <div><option value="Bitcoin" id="op-value">Bitcoin</option></div>
+                </select>
+            </div>
+            <div class="campos">
+                <p id="primeiroP">Valor atual da cotação</p>
+                <p id="value-dolar"></p>
+            </div>
+            <div class="campos">
+                <p>Valor em reais (R$)</p>
+                <input type="number" name="" id="value-investir" placeholder="digite aqui">
+            </div>
+            <div class="campos">
+                <p>Valor convertido em dólar...</p>
+                <button id="showValue"></button>
+            </div>
+        </div>
+        <!-- <div class="information">
+            <p>Você possui um total de U$ 1000(mil dólares investidos)</p>
+        </div> -->
+        <footer class="footer">
+            <p>Desenvolvido por Rafael Santos</p>
+        </footer>
+    </section>
+
+<script src="script.js"></script>    
+</body>
+</html>
